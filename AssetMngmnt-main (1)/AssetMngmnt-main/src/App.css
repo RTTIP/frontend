@@ -1,0 +1,43 @@
+/* Container styling */
+.container {
+  display: flex;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Sidebar styling */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 350px; /* Adjust the width as per your design */
+  height: 100vh;
+  background-color: #0a2a75;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.sidebar-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.menu-item {
+  margin: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Content styling */
+.content {
+  margin-left: 350px; /* Same width as the sidebar */
+  flex: 1;
+  padding: 20px;
+  overflow-x: auto;
+  max-height: 100vh;
+  overflow-y: auto;
+}

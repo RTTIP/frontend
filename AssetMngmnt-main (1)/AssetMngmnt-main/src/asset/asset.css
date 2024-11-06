@@ -1,0 +1,55 @@
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    margin-top: 50px;
+    width: 50vw;
+  }
+  
+  .main-title {
+    color: #0a2a75;
+    font-size: 24px;
+  }
+  
+  .search-container {
+    margin-top: 20px;
+  }
+  
+  .input {
+    width: 300px;
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+    box-sizing: border-box;
+  }
+  
+  .search-button {
+    background-color: #0a2a75;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  /* Asset table styling */
+  .asset-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .asset-table th, .asset-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .asset-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .asset-table td {
+    color: #333;
+  }
+  
